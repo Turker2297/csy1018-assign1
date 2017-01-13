@@ -16,16 +16,40 @@ ul.headerfooter li a {
 h1.about {
   color: lightgrey;
 }
-
+h1 {
+    font: 100% Arial, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight:500;
+    color: lightgrey;
+    margin: 10px;
+    width: 100%
+}
 ul.headerfooter {
 font-size: 1em;
-text-align: center;;
+text-align: center;
 text-decoration: none;
 color: darkgreen;
 list-style-type: none;
 margin: 10px;
 padding: 10px;
 overflow: hidden;
+}
+ul.footer {
+font-size: 1em;
+text-align: center;
+text-decoration: none;
+color: darkgreen;
+list-style-type: none;
+margin: 10px;
+padding: 10px;
+overflow: hidden;
+}
+ul.footer li {
+  float: left;
+}
+ul.footer li a {
+  margin: 45px;
+  color: lightgrey;
 }
 ul.headerfooter li {
   float: left;
